@@ -13,7 +13,7 @@ cd /var/lib/jenkins/workspace/yourproject
 export CHANGE_LOG="$(git log -1 --pretty=format:%s $GIT_COMMIT)"
 
 ## Defining new variables
-export NEW_BRANCH=`echo $GIT_BRANCH | awk -Forigin/ '{print $2}'`
+export NEW_BRANCH=`echo $GIT_BRANCH | awk -Forigin/ '{print $2}'`<br />
 export DATE_TIME=$(date +%d-%m-%Y--%T)
 
 ## Post method using curl
