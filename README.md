@@ -5,7 +5,6 @@
 ./ gradlew clean :app:generateStagingDebugSources :app:generateStagingDebugAndroidTestSources :app:mockableAndroidJar :app:assembleStagingDebug
 
 # 2) Execute Shell to sent apk file to your intranet website
-
 ## Open project directory
 cd /var/lib/jenkins/workspace/yourproject
 
